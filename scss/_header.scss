@@ -1,0 +1,45 @@
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 106px;
+    margin-top: 57px;
+
+    .header__nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+
+        li {
+            list-style: none;
+
+            a {
+                text-decoration: none;
+                font-family: 'Hind Siliguri';
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 17.1px;
+                color: #292830;
+
+                a:hover{
+                    text-decoration: underline;
+                    color: red;
+                  }
+
+            }
+        }
+    }
+
+    .header__btn button {
+        background-color: #FFFFFF;
+        border: 1px solid #FF7235;
+        border-radius: 8px;
+        color: #FF7235;
+        padding: 16px 18px;
+        font-family: 'Hind Siliguri';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 17.1px;
+    }
+}
