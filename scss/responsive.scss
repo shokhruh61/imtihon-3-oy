@@ -1382,8 +1382,11 @@
         background-attachment: local;
         text-align: center;
         flex-direction: column;
+        
     }
-
+.object__container{
+    display: none;
+}
     .object__info {
 
         h2 {
@@ -1413,6 +1416,7 @@
 
         .footer__nav1 {
             margin-bottom: 60px;
+            display: none;
 
             a {
                 font-size: 15px;
@@ -1440,6 +1444,7 @@
         font-size: 18px;
         line-height: 30px;
         margin-bottom: 20px;
+        display: none;
     }
 
     .footer__nav2 {
